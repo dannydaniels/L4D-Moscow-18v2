@@ -1,0 +1,352 @@
+ @font-face {
+    font-family: Agency C;
+    src: url(8711.ttf);
+   }
+
+ @font-face {
+    font-family: Agency FB;
+    src: url(http://allfont.ru/allfont.css?fonts=agency-fb); /* Путь к файлу со шрифтом */
+   }
+
+body{
+	margin-top: 50px;
+	background-image: url('img/bg.png'); 
+	background-color: #111111;*/
+	background-position: center center;
+}
+
+mark {
+	background: none;
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: #94a4c5;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #94a4c5;
+	background: #525e76;
+}
+
+.general {
+	height: 1400px; 
+	width: 960px;
+	margin: auto;
+	-webkit-box-shadow: 0px 0px 25px -2px #000000;
+	-moz-box-shadow: 0px 0px 25px -2px #000000;
+	box-shadow: 0px 0px 25px -2px #000000;
+}
+
+.headder {
+	margin-top: 10px;
+	width: 960px;
+	height: 280px;
+	background: #383838;
+}
+
+.content {
+	margin: 0px;
+	width: 960px;
+	height: 1070px;
+	background: #191c1e;
+	-webkit-box-shadow: inset 0px 12px 20px -15px #000000;
+	-moz-box-shadow: inset 0px 12px 20px -15px #000000;
+	box-shadow: inset 0px 12px 20px -15px #000000;
+}
+
+.footer {
+	width: 960px;
+	height: 52px;
+	background: #383838;
+}
+
+.info {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 210px;
+	background: #202020;
+}
+
+.info font {
+	display: block;
+	margin-left: 5px;
+}
+
+.navig {
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #383838;
+	width: 302px;
+}
+
+.nav {
+	margin-left: -42px;
+	width: 302px;
+	height: 39px;
+	list-style: none;
+}
+
+.nav li {
+
+}
+
+.nav li a {
+	margin-top: 10px;
+	color: #111111;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 3.6px;
+	display: block;
+	float: left;
+	width: 97px;
+	height: 39px;
+	background-image: url('img/buttonbg.png') 
+}
+
+.nav li a:active{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 97px;
+	height: 39px;
+	background-image: url('img/buttonbgactive.png') 
+}
+
+.nav li a:hover{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 97px;
+	height: 39px;
+	background-image: url('img/buttonbgactive.png') 
+}
+
+#imageontop {
+	float: right;
+	margin-right: 10px;
+	margin-top: -30px;
+	width: 630px;
+	height: 230px;
+	background-image: url('img/topimg.png');
+	background-color: #111111;
+	-webkit-box-shadow: 0px -12px 20px -15px #000000, 0px 12px 20px -15px #000000;
+	-moz-box-shadow: 0px -12px 20px -15px #000000, 0px 12px 20px -15px #000000;
+	box-shadow: 0px -12px 20px -15px #000000, 0px 12px 20px -15px #000000;
+}
+
+#imageontop font {
+	margin-left: 10px;
+}
+
+#servs {
+	margin-left: -10px;
+}
+
+.servblock {
+	margin-top: 86px;
+	margin-left: 19.5px;
+	float: left;
+	width: 300px;
+	height: 236px;
+	background: #33393d;
+}
+
+.servblock font {
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: -50px;
+	margin-left: 0px;
+}
+
+.servblock img {
+	width: 160px;
+	height: 120px;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.servblock text {
+	display: block;
+	float: right;
+	width: 135px;
+	height: 100px;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 24px;	
+}
+
+.servblock hr {
+	color: #111;
+	width: 290px;
+	height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.7);
+    margin-top: -5px;
+}
+
+.servinfo {
+	display: block;
+	margin-top: -27px;
+	margin-left: 5px;
+}
+
+.servinfo font {
+	font-size: 25px;
+	display: block;
+	margin-top: 0px;
+}
+
+#repair img {
+	display: block;
+	align-self: center;
+	width: 260px;
+	height: 227px;
+	margin-left: 20px;
+}
+
+#repair font {
+	display: block;
+	width: 260px;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 65px;
+}
+
+.news {
+	position: absolute;
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	width: 940px;
+	height: 0px auto;
+	background: #33393d;
+	margin-top: 400px;
+	margin-left: 10px;
+}
+
+.news font {
+	display: block;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Agency C;
+	text-align: left;
+	margin-top: -45px;
+	margin-left: 1px;
+}
+
+.news img {
+	display: block;
+	width: 250px;
+	height: 190px;
+	margin-top: 9px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.news hr {
+	color: #111;
+	width: 670px;
+	height: 1px;
+    border: 0;
+    background: linear-gradient(to left, #111111, #33393d);
+    margin-top: -5px;
+   	margin-left: 265px;
+ 
+}
+
+.newstxt {
+	position: relative;
+	margin-top: 57px;
+	margin-left: 10px;
+	height: 0px auto;
+}
+
+.newstxt font {
+	display: block;
+	width: 930px;
+	font-size: 14px;
+	font-family: Verdana;
+}
+
+.newsfoot {
+	margin-top: -15px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: right;
+	height: 20px;
+}
+
+.newsfoot font {
+	margin: 0px;
+	font-size: 16px;
+}
+
+.footer {
+	position: absolute;
+	-webkit-box-shadow: 0px -12px 20px -15px #000000;
+	-moz-box-shadow: 0px -12px 20px -15px #000000;
+	box-shadow: 0px -12px 20px -15px #000000;
+}
+
+.bleft {
+	width: 300px;
+}
+
+.bleft ul {
+	margin: 0px;
+	margin-left: -30px;
+}
+
+.bleft li {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: left;
+	height: 39px;
+	width: 60px;
+}
+
+.bleft li a {
+	color: white;
+}
+
+.bleft li a:hover {
+	text-decoration: none;
+	color: #94a4c5;
+	background: #525e76;
+}
+
+.bcenter {
+	float: left;
+	margin-left: 280px;
+}
+
+
+.bright {
+	width: 300px;
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+}
